@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ PAGE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dokdo&family=Poppins:wght@100;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dokdo&family=Poppins:wght@100;400&display=swap');
+    </style>
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Life of Works of <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="info.html" style="color: black;">Dr. Jose Rizal</a></h1>
+        </div>
+    </header>
+
+    <div id="name-input-container">
+        <input type="text" id="name-input" placeholder="Enter your name">
+        <button id="name-submit-btn">Start Quiz</button>
+      </div>
+      <div id="timer">Time: <span id="time-left"></span></div>
+      <div id="congrats" style="display: none;"></div>
+
+
+    <div id="quiz-container">
+        <h2 id="question"></h2>
+        <div id="options">
+          <input type="radio" name="answer" id="option1">
+          <label for="option1" id="option1-label"></label><br>
+          <input type="radio" name="answer" id="option2">
+          <label for="option2" id="option2-label"></label><br>
+          <input type="radio" name="answer" id="option3">
+          <label for="option3" id="option3-label"></label><br>
+        </div>
+        <button id="submit-btn">Submit</button>
+      </div>
+      <p>Bonus Question: The most Cultured of the reformist</p>
+    </div>
+     
+      <div class="space"></div>
+
+      <script src="script.js"></script>
+</body>
+</html>
